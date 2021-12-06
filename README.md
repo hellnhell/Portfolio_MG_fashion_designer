@@ -1,1 +1,2 @@
-# Portfolio_MG_fashion_designer
+# MG Portfolio
+# A static portfolio for a fashion designer.
