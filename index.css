@@ -1,0 +1,451 @@
+
+
+*,*:before,*:after {
+    box-sizing:inherit;
+	-webkit-box-sizing: inherit;
+    margin:0;
+    padding:0;
+    border: 0 none;
+    position: relative;
+}
+
+html {
+	background: rgb(255, 255, 255);
+	box-sizing:border-box;
+	-webkit-box-sizing: inherit;
+	font-family: 'Bebas Neue';
+	font-size: 1rem;
+	color: black;
+	scroll-behavior: smooth;
+}
+
+
+
+body > article {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+figure {
+	background: white;
+	width: calc( 50% + 1px);
+	height: 100vh;
+	margin: 0 auto 10vh 0;
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+	overflow: hidden;
+}
+
+section {
+	background: white;
+	width: calc(50% + 1px);
+	height: 100vh;
+	margin: 0 0 10vh auto;
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0;		
+	overflow: hidden;
+}
+
+/* footer {
+	width: 100%;
+	height: 50px;
+	z-index: 1;
+	background: rgba(206, 206, 206, 0.253);
+	color: #575757;
+	display:flex;
+	padding-top: 10px;
+	align-items: center;
+	justify-items: right;
+	position: fixed;
+}
+footer p{
+	font-size: 1.2rem;
+	margin-bottom: 0;
+} */
+
+
+	figure:nth-of-type(2n)::after {
+		right: 65%;
+		left: 5vmin;
+	}
+
+    figure:nth-of-type(3n)::after {
+		right: 65%;
+		left: 5vmin;
+	} 
+
+	figure:nth-of-type(2n) {
+		margin: 0 0 10vh auto;
+	}
+
+    figure:nth-of-type(2n) .rs li{
+        list-style: none;
+        display: inline-block;
+        padding-left: 3rem;
+        font-size: 3rem;
+    }
+
+	section:nth-of-type(2n) {
+		margin: 0 auto 10vh 0;
+	}
+
+	figure:last-of-type,
+	section:last-of-type {
+		margin-bottom: 0;
+	}
+
+	#bot-resize {
+		margin-bottom: 0;
+
+	}
+
+	figure:nth-of-type(1) {
+		width: 100%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		margin: 0 0 10vh 0;
+
+	}
+	.name {
+		width: calc( 40% + 1px);
+		padding: 5%;
+		z-index: 1;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		align-items: center;
+	}
+	
+	.name h1 {
+		font-size: 5rem;
+		font-weight: 400;
+		letter-spacing: 0.5rem;
+	}
+
+	.name p {
+		font-size: 1.8rem;
+
+	}
+
+	.role {
+		width: calc( 50% + 1px);
+		padding: 5%;
+	}
+
+	.aboutme {
+		display: flex;
+		align-items: center;
+		width: 90%;
+		height: 100%;
+	}
+
+	#vid-section{
+		width: 100%;
+		height: 100vh;
+		display: flex;
+	}
+	
+	.vid-container{
+		width: 100%;
+	}
+
+	.myVideo {
+		position: sticky;
+		position: -webkit-sticky;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		width: 100%;
+		min-height: 100vh;
+	}
+
+	.img-div{
+		display: -webkit-box;
+		display: -moz-box;
+		display: -ms-flexbox;
+		display: -webkit-flex;
+		display: flex;
+		height: 90%;
+		margin-top: 10%;
+	}
+
+	.img-div2{
+		margin-top: 2%;
+		margin-left: 15%;
+	}
+
+	.img-div3{
+		margin-top: 2%;
+		margin-left: 15%;
+	}
+
+
+	.img-div img {
+		width: 45%;
+		height: 70%;
+	}
+
+	.img-div .img-alone{
+		margin-left: 15%;
+		margin-top: 5%;
+	}
+
+	.img-div2 img {
+		width: 45%;
+		padding-left: 2%;
+	}
+
+	.img-div2 img:nth-child(1){
+		margin-left: 20%;;
+	}
+
+	.img-div2 img:nth-child(2){
+		width: 35%;
+	}
+	
+	.img-div3 img{
+		width: 52%;
+	}
+	
+	.img-div3 img:nth-child(1){
+		margin-right: 5%;
+	}
+	.img-div3 img:nth-child(2){
+		margin-left: 15%;
+	}
+
+	.img-div .img-mxw{
+		width: 46%;
+		height: 80%;
+		margin-left: 10%;
+	}
+
+	#ppal {
+		width: 80%;
+		height: 100vh;
+		margin: 0;
+		padding: 0;
+		bottom: 6%;
+	}
+	
+	.titles {
+		width: 90%;
+		height: 100%;
+		padding : 2%;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+	
+	.titles-2 {
+		color: transparent;
+		-webkit-text-stroke: 2px #212121;
+		text-decoration: none;
+		font-weight: 900;
+		letter-spacing: 2px;
+		font-family: 'Vollkorn', sans-serif;
+
+	}
+	.titles-2:hover, .titles-2:focus {
+		-webkit-text-stroke: 1px rgb(153, 48, 0);
+	}
+
+	.title-ec {
+		margin-left: 5%;		
+	}
+
+	h1,
+	h2 {
+		font-size: 4rem;
+		text-align: center;
+		line-height: 1.2;
+		word-spacing: 1.2rem;
+	}
+	
+	p {
+		text-align: center;
+		width: 100%;
+		font-weight: 200;
+		font-style: italic;
+		font-size: calc(0.8vmin + 1.2vmax);
+		margin-bottom: 5%;
+	}
+
+
+	.ecomm {
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+		width: 100%;
+		margin-top: 8%;
+		
+	}
+
+	.ecomm img {
+		width: 25%;
+		object-fit: cover;
+        padding-left: 0;
+	}
+
+
+
+
+/* RESPONSIVEEEEEEEEEEEEEEE */
+@media only screen and (max-width: 1024px) {
+	figure {
+		height: 100vh;
+	}
+	section {
+		height: 100vh;
+	}
+
+
+	#vid-section{
+		display: none;
+	}
+
+	.img-div,
+	.img-div2{
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.img-div img {
+		width: 75%;
+		margin-top: 10%;
+	}
+
+	.img-div .img-alone{
+		margin-left: 0;
+		margin-top: 10%;
+		width: 80%;
+	}
+
+	.img-div2 img{
+		width: 85%;
+		margin-left: 12%;
+		margin-top: 20%;
+	}
+
+	.img-div2 img:nth-child(1){
+		margin-left: 12%;
+	}
+
+	.img-div2 img:nth-child(2){
+		width: 70%;
+	}
+
+	.img-div .img-mxw {
+		width: 90%;
+		margin-top: 10%;
+		margin-left: 0;
+	}
+
+	.img-div3 img {
+		margin-top: 20%;
+		width: 85%;
+		margin-left: 5%;
+	}
+
+	.img-div3 img:nth-child(1){
+		margin-right: 0;
+	}
+	.img-div3 img:nth-child(2){
+		margin-left: 5%;
+	}
+
+	.title-ec .titles-2{
+		font-size: 2.8rem;
+		margin-left: 2%;
+	}
+
+	.ecomm {
+		margin-top: 20%;
+	}
+
+	.ecomm img{
+		width: 45%;
+	} 
+}
+
+@media only screen and (max-width: 600px){
+	figure,
+	section {
+		width: 100%;
+	}
+
+	figure:nth-of-type(1) {
+		flex-wrap: wrap;
+		align-items: center;
+		justify-content: start;
+	}
+
+	.name {
+		width: 100%;
+		padding: 0;
+	}
+
+	.role {
+		width: 100%;
+		padding: 2%;
+	}
+
+	.titles {
+		margin-left: 5%;
+	}
+
+	.titles h2{
+		font-size: 3rem;
+	}
+
+	.img-div img {
+		width: 60%;
+		margin-top: 2%;
+	}
+
+	.img-div .img-mxw {
+		width: 80%;
+	}
+
+	.titles-2 .title-ec{
+		font-size: 2.8rem;
+		margin-right: 1%;
+	}
+
+	.img-div2 img{
+		margin-top: 10%;
+		width: 72%;
+		margin-left: 8%;
+	}
+
+	 .img-div2 img:nth-child(1){
+		margin-left: 6%;
+	}
+
+	.img-div3 img {
+		margin-top: 10%;
+		margin-left: 2%;
+
+	}
+
+	.img-div3 img:nth-child(2){
+		margin-left: 2%;
+	} 
+
+	.title-ec .titles-2{
+		font-size: 2.8rem;
+		margin-left: 2%;
+	}
+
+	.ecomm {
+		margin-top: 20%;
+	}
+
+	.ecomm img{
+		width: 45%;
+	} 
+}
