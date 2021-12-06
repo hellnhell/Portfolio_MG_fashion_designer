@@ -1,10 +1,13 @@
 # MG Portfolio
 ### A static portfolio for a fashion designer.
 
-<img width="2543" alt="Screen Shot 2021-12-06 at 12 28 23 PM" src="https://user-images.githubusercontent.com/55841405/144838901-1e7b76fc-afc3-447b-868b-d5fb524c55a2.png">
-<img width="2543" alt="Screen Shot 2021-12-06 at 12 28 53 PM" src="https://user-images.githubusercontent.com/55841405/144838912-840200d5-e89f-4cd0-9033-be7b8bdf369d.png">
-<img width="2543" alt="Screen Shot 2021-12-06 at 12 29 14 PM" src="https://user-images.githubusercontent.com/55841405/144838927-f77563dc-c0f4-4f06-9854-c84a85a40ea7.png">
+
+<video autoplay src="https://user-images.githubusercontent.com/55841405/144839846-54eea701-e62a-4425-82fb-5e4f12cf64e2.mov" width=50%></video>
+<div style="display:flex; jusitfycontent:space-between">
+<img width="100%" alt="Screen Shot 2021-12-06 at 12 29 14 PM" src="https://user-images.githubusercontent.com/55841405/144838927-f77563dc-c0f4-4f06-9854-c84a85a40ea7.png"><img width="100%" alt="Screen Shot 2021-12-06 at 12 28 53 PM" src="https://user-images.githubusercontent.com/55841405/144838912-840200d5-e89f-4cd0-9033-be7b8bdf369d.png"><img width="100%" alt="Screen Shot 2021-12-06 at 12 29 00 PM" src="https://user-images.githubusercontent.com/55841405/144840600-b707201a-a92b-46c7-806f-a6566b0ac5bc.png">
+</div>
 
 
-https://user-images.githubusercontent.com/55841405/144838934-b2b90567-8e2d-4362-9e0e-0adba0286ee2.mov
+
+
 
